@@ -1,10 +1,10 @@
-use crate::db::entity::events;
 use db::entity::sea_orm_active_enums::Type;
 use dotenvy::dotenv;
 use sea_orm::{ActiveModelTrait, ConnectOptions, Database, EntityTrait, Set};
 use std::time::Duration;
 use tracing::info;
 
+use crate::db::entity::events;
 use crate::db::entity::events::Entity as Events;
 
 pub mod db {

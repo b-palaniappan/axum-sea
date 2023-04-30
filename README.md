@@ -6,7 +6,10 @@
 
 ### SeaORM
 
-- Command to create entities from database,
+#### Steps
+
+- Create DB Schema and create tables with constrains
+- Run the command to create entities from database,
 
 ```bash
 sea-orm-cli generate entity -o ./src/db/entity
