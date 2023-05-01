@@ -1,4 +1,5 @@
-# Axum REST API with Sea-ORM with MySQL
+# Sea-ORM with MySQL
+Playing with Sea-ORM with MySQL project
 
 ### Features
 
